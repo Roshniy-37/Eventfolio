@@ -1,0 +1,89 @@
+body{
+    background-image:url('cres.jpeg');
+    font-family: Roboto,Sans-serif;
+    
+}
+
+.form{
+    height: 1100px;
+    width: 600px;
+    margin: auto;
+    box-align: center;
+}
+.required{
+font-size: 13px;
+color:red;
+font-size: large;}
+
+.title{
+    height: 150px;
+    width: 600px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 8px;
+    border-top: 15px solid brown;    
+    padding: 25px;
+}
+
+.course{
+    position: relative;
+    left: 50px;
+}
+.name-div , .college-div , .email-div , .mobile-div{ 
+    height: 150px;
+    width: 650px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.name{
+    padding-top:20px ;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+.input-div{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.input-div input{
+    width:300px;
+    border:0;
+    outline:0;
+    border-bottom: 1.5px solid black; 
+    font-size: 15px;
+}
+.btn{
+    height: 45px;
+    width: 100px;
+    background-color:grey;
+    border-radius:9px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 540;
+    border:none;
+    padding: 10px;
+    position:relative;
+    left: 260px;
+    margin: 15px;
+    color: white;
+}
+.image{
+    float: right;
+    width: 175px;
+    position: relative;
+    bottom: 160px;
+    right:50px;
+}
+
+.bms{
+    position: relative;
+    left: 160px;
+    bottom: 20px;
+}
+.bfia{
+    position: relative;
+    left: 320px;
+    bottom: 40px;
+}

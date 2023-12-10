@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body  {
+    background-image: url("https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg?w=1060&t=st=1702196484~exp=1702197084~hmac=e35268224d5fc0af19dc7a4306c8b067372150cb37633cd40a8be6b293d1233b");
+}
+.wrapper {
+	width: 80%;
+    height: 50vh;
+	margin: 30px auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 70px;
+}
+.wrapper img {
+	width: 110%;
+    height:40vh;
+	cursor: pointer;
+	transition: 1s ease;
+}
+.wrapper img:hover {
+	transform: scale(0.9);
+}

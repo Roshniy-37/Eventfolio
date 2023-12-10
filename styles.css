@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin-left:150px;
+    text-align: center;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100px;
+    
+  }
+  
+ 
+  header {
+    background-color: #eb8e03;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+ 
+  .section {
+    padding: 50px 0;
+    text-align: center;
+  }
+
+ 
+  footer {
+    background-color: #eb8e03;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #home{
+    background-color: #DD702C;
+    background-image: url(viti.png);
+    background-position:200px;
+    background-size: auto;
+    background-blend-mode:normal;
+  }
+  #about{
+    background-color: #E07C3E;
+   
+  }
+  #h2{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+  }
+  #h2p{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+
+  }
+  #timeline{
+    background-color: #E28850;
+    background-image:url(itenar.png);
+    color: #DD702C;
+  }
+  #taimline{
+    color: #E59461;
+    font-size: 50px;
+  }
+  #contact{
+    background-color: #E59461;
+  }
+
+  #imgviti{
+    width:200px;
+  }
+  #link{
+    color: black;
+  }
+  a:link {
+    text-decoration: none;
+    
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#link2{
+    text-decoration: solid;
+    font-size: 50px;
+    font-family:fantasy;
+    color: #eb8e03;
+}
+
+#link3{
+    text-decoration: none;
+    color:black;
+
+}
+#foto{
+    text-decoration: none;
+    color:black;
+    
+}

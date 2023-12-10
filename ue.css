@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    margin: 0;
+    height:8vh;
+    z-index: 2;
+    position: fixed;
+    padding: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+.container{
+    margin-top: 4vh;
+    background: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 12px;
+    column-gap: 20px;
+}
+.cres{
+    width: 50%;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.cres img{
+    margin: 50px;
+    border-radius: 15%;
+}
+.cres h1{
+    margin: 20px 0;
+    text-align: center;
+    color: black;
+}
+.viti{
+    width: 50%;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.viti img{
+    margin: 50px;
+    border-radius: 15%;
+}
+.viti h1{
+    margin: 20px 0;
+    text-align: center;
+    color: black;
+}
+.hackCBS{
+    width: 50%;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.hackCBS img{
+    margin: 50px;
+    border-radius: 15%;
+}
+.hackCBS h1{
+    margin: 20px 0;
+    text-align: center;
+    color: black;
+}
+.fre{
+    width: 50%;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.fre img{
+    margin: 50px;
+    border-radius: 15%;
+}
+.fre h1{
+    margin: 20px 0;
+    text-align: center;
+    color: black;
+}
+.Ret{
+    width: 50%;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.Ret img{
+    margin: 50px;
+    border-radius: 15%;
+}
+.Ret h1{
+    margin: 20px 0;
+    text-align: center;
+    color: black;
+}
+.prom{
+    width: 50%;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.prom img{
+    margin: 50px;
+    border-radius: 15%;
+}
+.prom h1{
+    margin: 20px 0;
+    text-align: center;
+    color: black;
+}
+.boll{
+    width: 50%;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.boll img{
+    margin: 50px;
+    border-radius: 15%;
+}
+.boll h1{
+    margin: 20px 0;
+    text-align: center;
+    color: black;
+}
+.conv{
+    width: 50%;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 10px;
+}
+.conv img{
+    margin: 50px;
+    border-radius: 15%;
+}
+.conv h1{
+    margin: 20px 0;
+    text-align: center;
+    color: black;
+}
